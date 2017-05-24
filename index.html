@@ -2,10 +2,67 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Title</title>
+	<title>Lyft</title>
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+	<script src="https://use.fontawesome.com/8f8db047c3.js"></script>
 	<link rel="stylesheet" href="assets/css/main.css">
 </head>
+
 <body>
-	<script src="assets/js/main.js"></script>
+<!-- Barra de Navegación -->
+<header>
+	<div>
+		<nav>
+			<ul>
+				<li class="navegador"><a href="#">Help</a></li>
+				<li class="navegador"><a href="#">Explore</a></li>
+				<li class="navegador"><a href="#">Drive</a></li>
+				<div class="logo"></div>
+			</ul>
+		</nav>
+	</div>
+</header>
+
+<!-- Imagen de Fondo + Sección para Inscribitse -->
+<section class="imagen-fondo">
+	<div class="fondo-bienvenida">
+		<div class="inscripcion">
+			<h1>TURN MILES INTO MONEY</h1>
+			<p class="inscripcion-2">SIGN UP TO DRIVE LIFT</p>
+			<input class="fono" id="fono" type="text" placeholder="Ingrese su número telefónico.">
+			<button class="boton-inscripcion" id="boton-inscripcion">BECOME A DRIVER <i class="fa fa-heart"></i></button>
+			<p>Already applied? Check the status of your application here. Earn money for inviting friends to drive. Learn more.</p>
+		</div>
+	</div>
+</section>
+
+<!-- Sección de Juego -->
+<section>
+	<div class="seccion-play">
+		<h1>PLAY WITH LIFT</h1>
+		<div class="juego">
+			<div id="caja-coordenadas" class="caja-coordenadas">
+				<i class="fa fa-car fa-2x" aria-hidden="true"></i>
+				<input type="text" id="x-coor" class="x-coor" placeholder="x-coordinate">
+				<i class="fa fa-car fa-2x" aria-hidden="true"></i>
+				<input type="text" id="y-coor" class="y-coor" placeholder="y-coordinate">
+				<button id="comienza-juego" class="comienza-juego">START</button>
+			</div>
+			<div id="caja-juego" class="caja-juego"></div>
+		</div>
+	</div>
+</section>
+
+<!-- Sección de Footer -->
+<footer>
+	<div class="links">
+		<i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+		<i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+		<i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i>
+	</div>
+	<p>Proyecto Final Sprint 3 - Laboratoria 2017</p>
+</footer>
+
+<script src="assets/js/main.js"></script>
 </body>
 </html>
